@@ -15,7 +15,7 @@ struct CityView: View {
     let timezone: String
     
     var body: some View {
-        HStack {
+        HStack(alignment: .firstTextBaseline) {
             VStack {
                 Text(timezone)
                 Text(city)
@@ -23,10 +23,13 @@ struct CityView: View {
             }
             
             Spacer()
+                
             Text(time)
+                .font(.system(size: 64.0, weight: .thin))
+            Text(amOrPm)
                 .font(.largeTitle)
-                .fontWeight(.light)
-            
+                .fontWeight(.thin)
+
         }
     }
 }
