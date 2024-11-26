@@ -29,6 +29,8 @@ struct CityView: View {
 }
 
 #Preview {
-    CityView(time: "5:50 PM", city: "Ottawa", timezone: "Today, +0HR")
+    List {
+        CityView(time: "5:50 PM", city: "Ottawa", timezone: "Today, +0HR")
+    }
 }
 
