@@ -10,6 +10,7 @@ import SwiftUI
 struct CityView: View {
     
     let time: String
+    let amOrPm: String
     let city: String
     let timezone: String
     
@@ -23,6 +24,8 @@ struct CityView: View {
             
             Spacer()
             Text(time)
+                .font(.largeTitle)
+                .fontWeight(.light)
             
         }
     }
@@ -30,7 +33,7 @@ struct CityView: View {
 
 #Preview {
     List {
-        CityView(time: "5:50 PM", city: "Ottawa", timezone: "Today, +0HR")
+        CityView(time: "5:50", amOrPm: "PM", city: "Ottawa", timezone: "Today, +0HR")
     }
 }
 
