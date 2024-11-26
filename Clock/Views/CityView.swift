@@ -15,10 +15,12 @@ struct CityView: View {
     let timezone: String
     
     var body: some View {
-        HStack(alignment: .firstTextBaseline) {
-            VStack {
+        HStack(alignment: .lastTextBaseline) {
+            VStack(alignment: .leading) {
                 Text(timezone)
+                    .foregroundStyle(.gray)
                 Text(city)
+                    .font(.largeTitle)
 
             }
             

@@ -23,6 +23,7 @@ struct WorldClockView: View {
                     
                     CityView(time: "5:35", amOrPm: "AM", city: "Mexico City", timezone: "Today, -1HRS")
                 }
+                .listStyle(.plain)
             }
             .navigationTitle("World Clock")
             .toolbar {
