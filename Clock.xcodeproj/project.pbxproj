@@ -14,7 +14,7 @@
 		444072E12CDE525C00B48C27 /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444072E02CDE525C00B48C27 /* WorldClockView.swift */; };
 		444072E32CDE527300B48C27 /* AlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444072E22CDE527300B48C27 /* AlarmsView.swift */; };
 		444072E52CDE528500B48C27 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444072E42CDE528500B48C27 /* StopWatchView.swift */; };
-		85BDA5722CF64A5A005F2BB4 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDA5712CF64A5A005F2BB4 /* models.swift */; };
+		85BDA5722CF64A5A005F2BB4 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDA5712CF64A5A005F2BB4 /* CityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		444072E02CDE525C00B48C27 /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
 		444072E22CDE527300B48C27 /* AlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsView.swift; sourceTree = "<group>"; };
 		444072E42CDE528500B48C27 /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
-		85BDA5712CF64A5A005F2BB4 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		85BDA5712CF64A5A005F2BB4 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +43,7 @@
 		444072BB2CDE4EFE00B48C27 = {
 			isa = PBXGroup;
 			children = (
+				444072D82CDE516F00B48C27 /* ClockApp.swift */,
 				444072DA2CDE516F00B48C27 /* Clock */,
 				444072C52CDE4EFE00B48C27 /* Products */,
 			);
@@ -67,8 +68,7 @@
 		444072DA2CDE516F00B48C27 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
-				85BDA5702CF64A4A005F2BB4 /* models */,
-				444072D82CDE516F00B48C27 /* ClockApp.swift */,
+				85BDA5702CF64A4A005F2BB4 /* Model */,
 				444072DF2CDE518A00B48C27 /* Views */,
 				444072D62CDE516F00B48C27 /* Preview Content */,
 				444072D72CDE516F00B48C27 /* Assets.xcassets */,
@@ -79,6 +79,7 @@
 		444072DF2CDE518A00B48C27 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				85BDA5712CF64A5A005F2BB4 /* CityView.swift */,
 				444072D92CDE516F00B48C27 /* LandingView.swift */,
 				444072E02CDE525C00B48C27 /* WorldClockView.swift */,
 				444072E22CDE527300B48C27 /* AlarmsView.swift */,
@@ -87,12 +88,11 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		85BDA5702CF64A4A005F2BB4 /* models */ = {
+		85BDA5702CF64A4A005F2BB4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				85BDA5712CF64A5A005F2BB4 /* models.swift */,
 			);
-			path = models;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +170,7 @@
 			files = (
 				444072DB2CDE516F00B48C27 /* ClockApp.swift in Sources */,
 				444072E52CDE528500B48C27 /* StopWatchView.swift in Sources */,
-				85BDA5722CF64A5A005F2BB4 /* models.swift in Sources */,
+				85BDA5722CF64A5A005F2BB4 /* CityView.swift in Sources */,
 				444072E12CDE525C00B48C27 /* WorldClockView.swift in Sources */,
 				444072E32CDE527300B48C27 /* AlarmsView.swift in Sources */,
 				444072DC2CDE516F00B48C27 /* LandingView.swift in Sources */,

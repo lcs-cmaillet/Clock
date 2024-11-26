@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct model: View {
+struct CityView: View {
     
     let time: String
     let city: String
@@ -23,14 +23,12 @@ struct model: View {
             
             Spacer()
             Text(time)
-
-            
             
         }
     }
 }
 
 #Preview {
-    model(time: "5:50 PM", city: "Ottawa", timezone: "Today, +0HR")
+    CityView(time: "5:50 PM", city: "Ottawa", timezone: "Today, +0HR")
 }
 
